@@ -44,7 +44,7 @@ def load_user(user_id):
 
 @app.route('/')
 def initial():
-    return 'API ECOMMERCE IS WORKING'
+    return 'WELLCOME, API ECOMMERCE IS WORKING'
 
 @app.route('/api/user/create', methods=['POST'])
 def add_user():
